@@ -108,13 +108,15 @@ h1 {
     font-family: "Gill Sans", Calibri, sans-serif;
     color: var(--texto);
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     border: 3px dotted var(--texto);
     padding: 10px;
     height: 100%;
-    line-height: 14px;
+    max-height: 220px;
+    line-height: 1.4em;
     cursor: pointer;
-    overflow-Y: scroll;
+    overflow-y: auto;
+    white-space: pre-line; /* Para conservar saltos de línea */
 }
 
 .corazon {
