@@ -119,13 +119,6 @@ h1 {
     white-space: normal;
 }
 
-.contenido code {
-    background-color: #ffe3ed;
-    padding: 2px 4px;
-    border-radius: 4px;
-    font-family: monospace;
-    font-size: 0.95em;
-}
 .corazon {
     position: absolute;
     top: 50%;
